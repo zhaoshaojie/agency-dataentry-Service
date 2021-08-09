@@ -1,6 +1,9 @@
 package com.announce.dataentry.service;
 
+import com.announce.dataentry.config.Result;
+import com.announce.dataentry.domian.SendAgencyRequestVo;
 import org.springframework.stereotype.Service;
+import sun.security.krb5.internal.PAForUserEnc;
 
 /**
  * @Description 互联网端信息披露数据收集Service
@@ -11,10 +14,16 @@ import org.springframework.stereotype.Service;
 public interface AgencyDataEntryService {
 
     /**
-     * 验证用户登录信息
-     * @param requestTime
+     * 验证用户信息
+     * @param tKey
      * @param X_Auth_Token
      * @return
      */
-    public boolean verifyUserInfo(String requestTime,String X_Auth_Token);
+    boolean verifyUserInfo(String tKey,String X_Auth_Token);
+
+    /**
+     * 银保信调用行业协会机构目录库新增/修改接口
+     * @return
+     */
+    Result sendAgencyInfo(SendAgencyRequestVo sendAgencyRequestVo);
 }

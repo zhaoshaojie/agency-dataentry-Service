@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 /**
  * <p>
- * 
+ * 机构目录库
  * </p>
  *
  * @author sjzhao
@@ -33,10 +33,6 @@ public class Columncompany implements Serializable {
     @TableField("ColumnName")
     private String ColumnName;
 
-    /**
-     * 00 - 鍏抽棴
-            01 - 寮�鍚�
-     */
     @TableField("ComSwitchStatus")
     private String ComSwitchStatus;
 
@@ -58,10 +54,6 @@ public class Columncompany implements Serializable {
     @TableField("EnSimpleName")
     private String EnSimpleName;
 
-    /**
-     * 00 - 鏃犳晥
-            01 - 鏈夋晥
-     */
     @TableField("ValidStatus")
     private String ValidStatus;
 

@@ -1,7 +1,8 @@
 package com.announce.dataentry.service.impl;
 
 import com.announce.dataentry.Util.MD5Util;
-import com.announce.dataentry.Util.TimeUtil;
+import com.announce.dataentry.config.Result;
+import com.announce.dataentry.domian.SendAgencyRequestVo;
 import com.announce.dataentry.service.AgencyDataEntryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.Base64Utils;
@@ -16,14 +17,13 @@ public class AgencyDataEntryServiceImpl implements AgencyDataEntryService {
 
 
     /**
-     * 验证用户登录信息
+     * 验证用户信息
      * @param tKey
      * @param X_Auth_Token
      * @return
      */
     @Override
     public boolean verifyUserInfo(String tKey, String X_Auth_Token) {
-        //验证用户信息
         try{
            // String tKey = TimeUtil.dateToStamp(requestTime);//盐值
             //用户传入的MD5加密，后用base64处理的数据后的数据
@@ -40,5 +40,15 @@ public class AgencyDataEntryServiceImpl implements AgencyDataEntryService {
             return false;
         }
         return false;
+    }
+
+    /**
+     * 银保信调用行业协会机构目录库新增/修改接口
+     * @return
+     */
+    @Override
+    public Result sendAgencyInfo(SendAgencyRequestVo sendAgencyRequestVo) {
+        
+        return null;
     }
 }

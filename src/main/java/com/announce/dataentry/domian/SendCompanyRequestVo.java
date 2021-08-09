@@ -1,7 +1,9 @@
 package com.announce.dataentry.domian;
 
 import com.announce.dataentry.domian.secondrequest.SelfSupportPlatForm;
+import io.netty.util.internal.StringUtil;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Builder;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -14,6 +16,7 @@ import java.util.List;
  * @Date:2021/8/7 14:39
  */
 @Data
+@Builder
 public class SendCompanyRequestVo {
 
     /**
@@ -147,5 +150,22 @@ public class SendCompanyRequestVo {
     @ApiModelProperty(value = "数据状态",required = true)
     private String dataStatus;
 
+    /**
+     * 数据校验
+     * @return
+     */
+    public String checkData(){
+        if(StringUtil.isNullOrEmpty(x_Auth_Token)) return "Token不能为空";
+        if(StringUtil.isNullOrEmpty(username)) return "用户名不能为空";
+        if(StringUtil.isNullOrEmpty(String.valueOf(tkey))) return "时间戳不能为空";
+        if(StringUtil.isNullOrEmpty(requestTime))return "请求时间不能为空";
+        if(StringUtil.isNullOrEmpty(companyCode)) return "机构代码不能为空";
+        if(StringUtil.isNullOrEmpty(companyType)) return "机构类型不能为空";
+        if(StringUtil.isNullOrEmpty(companyName)) return "机构名称不能为空";
+        if(StringUtil.isNullOrEmpty(dataStatus)) return "数据状态不能为空";
+        if(StringUtil.isNullOrEmpty(commitmentLette)) return "承诺函文件不能为空";
+
+        return null;
+    }
 
 }
