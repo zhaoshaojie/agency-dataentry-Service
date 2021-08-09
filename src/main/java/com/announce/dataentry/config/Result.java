@@ -26,6 +26,7 @@ public class Result implements Serializable {
 
     private String bizid;//批次ID
 
+    public Result(){}
 
     public Result(String code, String status,Object message,String responseTime,String bizid) {
         this.code = code;
@@ -33,12 +34,6 @@ public class Result implements Serializable {
         this.message = code;
         this.responseTime = code;
         this.bizid = code;
-    }
-
-    public static Result success() {
-        Result Result = new Result();
-        Result.setCode(ResponseCode.SUCCESS);
-        return Result;
     }
 
     public static Result success(Object message) {
@@ -49,9 +44,9 @@ public class Result implements Serializable {
     }
 
     public static Result failure(String code, String message) {
-        Result Result = new Result();
-        Result.setCode(code);
-        Result.setMessage(message);
-        return Result;
+        Result result = new Result();
+        result.setCode(code);
+        result.setMessage(message);
+        return result;
     }
 }
