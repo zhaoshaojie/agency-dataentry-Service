@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.chenchen")
+@MapperScan("com.announce.dataentry.operation.mapper")
 public class AnnounceDataEntryApplication {
 
 	public static void main(String[] args) {

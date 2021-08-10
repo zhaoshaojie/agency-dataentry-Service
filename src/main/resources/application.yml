@@ -1,62 +1,84 @@
 server:
-    port:8080
+  port: 8088
 spring:
-    datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/agency-dataentry
-        username: root
-        password: root
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/agency-dataentry
+    username: root
+    password: root
 
-    druid: # Êı¾İ¿âÁ¬½Ó³ØÅäÖÃ
-        initial-size: 5 # ³õÊ¼»¯Á¬½ÓÊı
-        min-idle: 5 # ×îĞ¡¿ÕÏĞÁ¬½ÓÊı
-        max-active: 20 # ×î´óÁ¬½ÓÊı
-        filter:
-            stat:
-                enabled: true
-                log-slow-sql: true
-                slow-sql-millis: 3000
-                connection-stack-trace-enable: true
-            slf4j:
-                enabled: true
-                statement-create-after-log-enabled: false
-                statement-close-after-log-enabled: false
-                result-set-open-after-log-enabled: false
-                result-set-close-after-log-enabled: false
-            wall:
-                enabled: true
-        stat-view-servlet:
-            enabled: true
-            url-pattern: /druid/*
-            login-username: admin
-            login-password: admin
-        #Á¬½Ó³ØÖĞµÄminIdleÊıÁ¿ÒÔÄÚµÄÁ¬½Ó£¬¿ÕÏĞÊ±¼ä³¬¹ıminEvictableIdleTimeMillis£¬Ôò»áÖ´ĞĞkeepAlive²Ù×÷
-        keep-alive: true
-        #ÊÇ·ñ»º´æpreparedStatement£¬Ò²¾ÍÊÇPSCache¡£PSCache¶ÔÖ§³ÖÓÎ±êµÄÊı¾İ¿âĞÔÄÜÌáÉı¾Ş´ó£¬±ÈÈçËµoracle
-        pool-prepared-statements: true
-        #ÒªÆôÓÃPSCache£¬±ØĞëÅäÖÃ´óÓÚ0£¬µ±´óÓÚ0Ê±£¬poolPreparedStatements×Ô¶¯´¥·¢ĞŞ¸ÄÎªtrue¡£
-        #ÔÚDruidÖĞ£¬²»»á´æÔÚOracleÏÂPSCacheÕ¼ÓÃÄÚ´æ¹ı¶àµÄÎÊÌâ£¬¿ÉÒÔ°ÑÕâ¸öÊıÖµÅäÖÃ´óÒ»Ğ©£¬±ÈÈçËµ100
-        max-open-prepared-statements: 100
-        #»ñÈ¡Á¬½ÓÊ±×î´óµÈ´ıÊ±¼ä£¬µ¥Î»ºÁÃë
-        max-wait: 60000
-        #ÓÃÀ´¼ì²âÁ¬½ÓÊÇ·ñÓĞĞ§µÄsql ±ØĞëÊÇÒ»¸ö²éÑ¯Óï¾ä
-        validation-query: select 1 from dual
-        #½¨ÒéÅäÖÃÎªtrue£¬²»Ó°ÏìĞÔÄÜ£¬²¢ÇÒ±£Ö¤°²È«ĞÔ¡£ÉêÇëÁ¬½ÓµÄÊ±ºò¼ì²â£¬Èç¹û¿ÕÏĞÊ±¼ä´óÓÚtimeBetweenEvictionRunsMillis£¬Ö´ĞĞvalidationQuery¼ì²âÁ¬½ÓÊÇ·ñÓĞĞ§
-        test-while-idle: true
-        #Á¬½Ó±£³Ö¿ÕÏĞ¶ø²»±»ÇıÖğµÄ×îĞ¡Ê±¼ä,Ïú»ÙÏß³ÌÊ±¼ì²âµ±Ç°Á¬½ÓµÄ×îºó»î¶¯Ê±¼äºÍµ±Ç°Ê±¼ä²î´óÓÚ¸ÃÖµÊ±£¬¹Ø±Õµ±Ç°Á¬½Ó
-        min-evictable-idle-time-millis: 30000
-        # Í¨¹ıconnectPropertiesÊôĞÔÀ´´ò¿ªmergeSql¹¦ÄÜ£»ÂıSQL¼ÇÂ¼
-        connect-properties: druid.stat.mergeSql=true
-    #freemarker¾²Ì¬×ÊÔ´ÅäÖÃ
-    freemarker:
-        tempalte-loader-path:
-            classpath: /templates
-        cache: false
-        charset: UTF-8
-        check-template-location: true
-        content-type: text/html
-        expose-request-attributes: true
-        expose-session-attributes: true
-        request-context-attribute: request
-        suffix: .fxl
+  druid: # æ•°æ®åº“è¿æ¥æ± é…ç½®
+    initial-size: 5 # åˆå§‹åŒ–è¿æ¥æ•°
+    min-idle: 5 # æœ€å°ç©ºé—²è¿æ¥æ•°
+    max-active: 20 # æœ€å¤§è¿æ¥æ•°AgencyDataEntryService
+    filter:
+      stat:
+        enabled: true
+        log-slow-sql: true
+        slow-sql-millis: 3000
+        connection-stack-trace-enable: true
+      slf4j:
+        enabled: true
+        statement-create-after-log-enabled: false
+        statement-close-after-log-enabled: false
+        result-set-open-after-log-enabled: false
+        result-set-close-after-log-enabled: false
+      wall:
+        enabled: true
+    stat-view-servlet:
+      enabled: true
+      url-pattern: /druid/*
+      login-username: admin
+      login-password: admin
+    #è¿æ¥æ± ä¸­çš„minIdleæ•°é‡ä»¥å†…çš„è¿æ¥ï¼Œç©ºé—²æ—¶é—´è¶…è¿‡minEvictableIdleTimeMillisï¼Œåˆ™ä¼šæ‰§è¡ŒkeepAliveæ“ä½œ
+    keep-alive: true
+    #æ˜¯å¦ç¼“å­˜preparedStatementï¼Œä¹Ÿå°±æ˜¯PSCacheã€‚PSCacheå¯¹æ”¯æŒæ¸¸æ ‡çš„æ•°æ®åº“æ€§èƒ½æå‡å·¨å¤§ï¼Œæ¯”å¦‚è¯´oracle
+    pool-prepared-statements: true
+    #è¦å¯ç”¨PSCacheï¼Œå¿…é¡»é…ç½®å¤§äº0ï¼Œå½“å¤§äº0æ—¶ï¼ŒpoolPreparedStatementsè‡ªåŠ¨è§¦å‘ä¿®æ”¹ä¸ºtrueã€‚
+    #åœ¨Druidä¸­ï¼Œä¸ä¼šå­˜åœ¨Oracleä¸‹PSCacheå ç”¨å†…å­˜è¿‡å¤šçš„é—®é¢˜ï¼Œå¯ä»¥æŠŠè¿™ä¸ªæ•°å€¼é…ç½®å¤§ä¸€äº›ï¼Œæ¯”å¦‚è¯´100
+    max-open-prepared-statements: 100
+    #è·å–è¿æ¥æ—¶æœ€å¤§ç­‰å¾…æ—¶é—´ï¼Œå•ä½æ¯«ç§’
+    max-wait: 60000
+    #ç”¨æ¥æ£€æµ‹è¿æ¥æ˜¯å¦æœ‰æ•ˆçš„sql å¿…é¡»æ˜¯ä¸€ä¸ªæŸ¥è¯¢è¯­å¥
+    validation-query: select 1 from dual
+    #å»ºè®®é…ç½®ä¸ºtrueï¼Œä¸å½±å“æ€§èƒ½ï¼Œå¹¶ä¸”ä¿è¯å®‰å…¨æ€§ã€‚ç”³è¯·è¿æ¥çš„æ—¶å€™æ£€æµ‹ï¼Œå¦‚æœç©ºé—²æ—¶é—´å¤§äºtimeBetweenEvictionRunsMillisï¼Œæ‰§è¡ŒvalidationQueryæ£€æµ‹è¿æ¥æ˜¯å¦æœ‰æ•ˆ
+    test-while-idle: true
+    #è¿æ¥ä¿æŒç©ºé—²è€Œä¸è¢«é©±é€çš„æœ€å°æ—¶é—´,é”€æ¯çº¿ç¨‹æ—¶æ£€æµ‹å½“å‰è¿æ¥çš„æœ€åæ´»åŠ¨æ—¶é—´å’Œå½“å‰æ—¶é—´å·®å¤§äºè¯¥å€¼æ—¶ï¼Œå…³é—­å½“å‰è¿æ¥
+    min-evictable-idle-time-millis: 30000
+    # é€šè¿‡connectPropertieså±æ€§æ¥æ‰“å¼€mergeSqlåŠŸèƒ½ï¼›æ…¢SQLè®°å½•
+    connect-properties: druid.stat.mergeSql=true
+  #freemarkeré™æ€èµ„æºé…ç½®
+  freemarker:
+    tempalte-loader-path:
+      classpath: /templates
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .fxl
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  #å®ä½“æ‰«æï¼Œå¤šä¸ªpackageç”¨é€—å·æˆ–è€…åˆ†å·åˆ†éš”
+  type-aliases-package: com.announce.dataentry.operation.entity
+  #typeAliasesPackage:
+  global-config:
+    #æ•°æ®åº“ç›¸å…³é…ç½®
+    db-config:
+      #å­—æ®µç­–ç•¥ IGNORED:"å¿½ç•¥åˆ¤æ–­",NOT_NULL:"é NULL åˆ¤æ–­"),NOT_EMPTY:"éç©ºåˆ¤æ–­"
+      field-strategy: NOT_NULL
+      #é©¼å³°ä¸‹åˆ’çº¿è½¬æ¢
+      column-underline: false
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+  #åŸç”Ÿé…ç½®
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: true
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
