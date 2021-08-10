@@ -40,9 +40,6 @@ public class SendAgencyRequestVo {
     @ApiModelProperty(value = "请求戳",required = true)
     private long tkey;
 
-   /* sign				数据验证签名	String	Y	30	数据验证签名：数据验证签名采用MD5二次加密，例：md5( md5( tellphone+ messagecontent) + tkey ))
-        */
-
     /**
      * 请求时间 yyyy-MM-dd HH:mm:ss格式
      */
@@ -57,7 +54,7 @@ public class SendAgencyRequestVo {
      */
     @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
-    private String companyCode;
+    private String comCode;
 
     /**
      * 机构类型
@@ -66,14 +63,13 @@ public class SendAgencyRequestVo {
      */
     @NotBlank(message = "机构类型不能为空")
     @ApiModelProperty(value = "机构类型",required = true)
-    private String companyType;
+    private String comType;
 
     /**
-     * 机构名称
+     * 机构中文全称
      */
-    @NotBlank(message = "机构名称不能为空")
-    @ApiModelProperty(value = "机构名称",required = true)
-    private String companyName;
+    @ApiModelProperty(value = "机构中文全称",required = true)
+    private String cnFullName;
 
 
     /**
@@ -88,9 +84,9 @@ public class SendAgencyRequestVo {
         if(StringUtil.isNullOrEmpty(username)) return "用户名不能为空";
         if(StringUtil.isNullOrEmpty(String.valueOf(tkey))) return "时间戳不能为空";
         if(StringUtil.isNullOrEmpty(requestTime))return "请求时间不能为空";
-        if(StringUtil.isNullOrEmpty(companyCode)) return "机构代码不能为空";
-        if(StringUtil.isNullOrEmpty(companyType)) return "机构类型不能为空";
-        if(StringUtil.isNullOrEmpty(companyName)) return "机构名称不能为空";
+        if(StringUtil.isNullOrEmpty(comCode)) return "机构代码不能为空";
+        if(StringUtil.isNullOrEmpty(comType)) return "机构类型不能为空";
+        if(StringUtil.isNullOrEmpty(cnFullName)) return "机构名称不能为空";
         if(StringUtil.isNullOrEmpty(dataStatus)) return "数据状态不能为空";
         return null;
     }

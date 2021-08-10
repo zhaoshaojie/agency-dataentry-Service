@@ -51,7 +51,7 @@ public class SecondCompanyRequestVo {
 
     @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
-    private String companyCode;
+    private String comCode;
 
     /**
      * 机构类型
@@ -60,7 +60,7 @@ public class SecondCompanyRequestVo {
      */
     @NotBlank(message = "机构类型不能为空")
     @ApiModelProperty(value = "机构类型",required = true)
-    private String companyType;
+    private String comType;
 
     /**
      * 二级分公司/落地服务机构信息

@@ -54,7 +54,7 @@ public class SendCompanyRequestVo {
      */
     @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
-    private String companyCode;
+    private String comCode;
 
     /**
      * 机构类型
@@ -63,21 +63,21 @@ public class SendCompanyRequestVo {
      */
     @NotBlank(message = "机构类型不能为空")
     @ApiModelProperty(value = "机构类型",required = true)
-    private String companyType;
+    private String comType;
 
     /**
      * 机构名称
      */
     @NotBlank(message = "机构名称不能为空")
     @ApiModelProperty(value = "机构名称",required = true)
-    private String companyName;
+    private String cnFullName;
 
     /**
      * 机构简称
      */
     @NotBlank(message = "机构简称不能为空")
     @ApiModelProperty(value = "机构简称",required = true)
-    private String CompanySimpleName;
+    private String cnSimpleName;
 
     /**
      * 自营网络平台情况（多例）
@@ -103,7 +103,7 @@ public class SendCompanyRequestVo {
      */
     @NotBlank(message = "公司官网链接不能为空")
     @ApiModelProperty(value = "公司官网链接",required = true)
-    private String ComInternetLink;
+    private String comInternetLink;
 
     /**
      * 注册资本
@@ -163,9 +163,9 @@ public class SendCompanyRequestVo {
         if(StringUtil.isNullOrEmpty(username)) return "用户名不能为空";
         if(StringUtil.isNullOrEmpty(String.valueOf(tkey))) return "时间戳不能为空";
         if(StringUtil.isNullOrEmpty(requestTime))return "请求时间不能为空";
-        if(StringUtil.isNullOrEmpty(companyCode)) return "机构代码不能为空";
-        if(StringUtil.isNullOrEmpty(companyType)) return "机构类型不能为空";
-        if(StringUtil.isNullOrEmpty(companyName)) return "机构名称不能为空";
+        if(StringUtil.isNullOrEmpty(comCode)) return "机构代码不能为空";
+        if(StringUtil.isNullOrEmpty(comType)) return "机构类型不能为空";
+        if(StringUtil.isNullOrEmpty(cnFullName)) return "机构名称不能为空";
         if(StringUtil.isNullOrEmpty(dataStatus)) return "数据状态不能为空";
         if(StringUtil.isNullOrEmpty(commitmentLette)) return "承诺函文件不能为空";
 

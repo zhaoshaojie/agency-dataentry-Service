@@ -54,7 +54,7 @@ public class SendProductRequestVo {
      */
     @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
-    private String companyCode;
+    private String comCode;
 
     /**
      * 机构类型
@@ -63,14 +63,7 @@ public class SendProductRequestVo {
      */
     @NotBlank(message = "机构类型不能为空")
     @ApiModelProperty(value = "机构类型",required = true)
-    private String companyType;
-
-    /**
-     * 机构名称
-     */
-    @NotBlank(message = "机构名称不能为空")
-    @ApiModelProperty(value = "机构名称",required = true)
-    private String companyName;
+    private String comType;
 
     /**
      * 自营平台及所属产品信息

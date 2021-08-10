@@ -16,7 +16,6 @@ public class ProductInfo {
     /**
      * 机构代码
      */
-    @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
     private String companyCode;
 
@@ -24,7 +23,6 @@ public class ProductInfo {
     /**
      * 保险产品唯一标识
      */
-    @NotBlank(message = "保险产品唯一标识不能为空")
     @ApiModelProperty(value = "保险产品唯一标识",required = true)
     private String productRecord;
 
@@ -32,7 +30,6 @@ public class ProductInfo {
     /**
      * 互联网保险产品数据类型   1-互联网保险产品新增
      */
-    @NotBlank(message = "互联网保险产品数据类型不能为空")
     @ApiModelProperty(value = "互联网保险产品数据类型",required = true)
     private String proDataStatus;
 }

@@ -54,7 +54,7 @@ public class SendSetHistoryRequestVo {
      */
     @NotBlank(message = "机构代码不能为空")
     @ApiModelProperty(value = "机构代码",required = true)
-    private String companyCode;
+    private String comCode;
 
     /**
      * 机构类型
@@ -63,7 +63,7 @@ public class SendSetHistoryRequestVo {
      */
     @NotBlank(message = "机构类型不能为空")
     @ApiModelProperty(value = "机构类型",required = true)
-    private String companyType;
+    private String comType;
 
     /**
      * 需置为历史数据的机构信息

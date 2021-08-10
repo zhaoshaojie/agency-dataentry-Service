@@ -2,198 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb11ceca-e90f-4e84-adcd-564902a211d3" name="Default Changelist" comment="代码提交">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/AnnounceDataEntryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/AnnounceDataEntryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/AgencyDataEntryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/ApplayrevokeinfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/AuditorrevokeinfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/CheckhistoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/ColumncompanyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/CoosupcusserverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/EmaillogsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistorycoosupcusserverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistoryinsuranceproductsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistoryinternetinformationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistoryinternetinsuranceproducController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistoryinternetnetworksecurityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistoryinternetterraceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistorylandingserviceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistorysubagencyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/HistorytwosyscompanyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InformationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InsuranceproductsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InternetinformationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InternetinsuranceproductsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InternetnetworksecurityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/InternetterraceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/LandingserviceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/SubagencyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/SyscompanyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/SysuserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/TempusercolumntableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/controller/TwosyscompanyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SecondCompanyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SecondCompanyRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendAgencyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendAgencyRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendCompanyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendCompanyRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendProductRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendProductRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendSetHistoryRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendSetHistoryRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendSupCusServeryRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendSupCusServeryRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/SendsubAgencyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendsubAgencyRequestVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/response/SecondCompanyResponseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/response/SecondCompanyResponseVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/response/SendAgencyResponseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/response/SendAgencyResponseVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/response/SendCompanyInfoResponseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/response/SendCompanyInfoResponseVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/response/SendProductResponseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/response/SendProductResponseVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/CompanyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/CompanyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/HistoryCompanyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/HistoryCompanyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/NetworkSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/NetworkSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/SelfSupportPlatForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SelfSupportPlatForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/SendProductPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SendProductPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/SubAgencyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SubAgencyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/secondrequest/SupServeryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SupServeryInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/domian/thirdrequest/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/thirdrequest/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Applayrevokeinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Applayrevokeinfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Auditorrevokeinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Auditorrevokeinfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Checkhistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Checkhistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Columncompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Columncompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Coosupcusserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Coosupcusserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Emaillogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Emaillogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historycoosupcusserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historycoosupcusserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historyinsuranceproducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historyinsuranceproducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historyinternetinformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historyinternetinformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historyinternetinsuranceproduc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historyinternetinsuranceproduc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historyinternetnetworksecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historyinternetnetworksecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historyinternetterrace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historyinternetterrace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historylandingservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historylandingservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historysubagency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historysubagency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Historytwosyscompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Historytwosyscompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Insuranceproducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Insuranceproducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Internetinformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Internetinformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Internetinsuranceproducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Internetinsuranceproducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Internetnetworksecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Internetnetworksecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Internetterrace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Internetterrace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Landingservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Landingservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Subagency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Subagency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Syscompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Syscompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Sysuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Sysuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Tempusercolumntable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Tempusercolumntable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/entity/Twosyscompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/entity/Twosyscompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/ApplayrevokeinfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/ApplayrevokeinfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/AuditorrevokeinfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/AuditorrevokeinfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/CheckhistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/CheckhistoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/ColumncompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/ColumncompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/CoosupcusserverMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/CoosupcusserverMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/EmaillogsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/EmaillogsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistorycoosupcusserverMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistorycoosupcusserverMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistoryinsuranceproductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistoryinsuranceproductsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistoryinternetinformationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistoryinternetinformationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistoryinternetinsuranceproducMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistoryinternetinsuranceproducMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistoryinternetnetworksecurityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistoryinternetnetworksecurityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistoryinternetterraceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistoryinternetterraceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistorylandingserviceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistorylandingserviceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistorysubagencyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistorysubagencyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/HistorytwosyscompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/HistorytwosyscompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InformationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InformationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InsuranceproductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InsuranceproductsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InternetinformationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InternetinformationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InternetinsuranceproductsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InternetinsuranceproductsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InternetnetworksecurityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InternetnetworksecurityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/InternetterraceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/InternetterraceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/LandingserviceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/LandingserviceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/SubagencyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/SubagencyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/SyscompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/SyscompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/SysuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/SysuserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/TempusercolumntableMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/TempusercolumntableMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/mapper/TwosyscompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/mapper/TwosyscompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/AgencyDataEntryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/service/AgencyDataEntryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/ApplayrevokeinfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/AuditorrevokeinfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/CheckhistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/ColumncompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/CoosupcusserverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/EmaillogsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistorycoosupcusserverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistoryinsuranceproductsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistoryinternetinformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistoryinternetinsuranceproducService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistoryinternetnetworksecurityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistoryinternetterraceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistorylandingserviceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistorysubagencyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/HistorytwosyscompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InsuranceproductsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InternetinformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InternetinsuranceproductsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InternetnetworksecurityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/InternetterraceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/LandingserviceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/SubagencyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/SyscompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/SysuserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/TempusercolumntableService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/TwosyscompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/AgencyDataEntryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/service/impl/AgencyDataEntryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/ApplayrevokeinfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/AuditorrevokeinfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/CheckhistoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/ColumncompanyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/CoosupcusserverServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/EmaillogsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistorycoosupcusserverServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistoryinsuranceproductsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistoryinternetinformationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistoryinternetinsuranceproducServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistoryinternetnetworksecurityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistoryinternetterraceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistorylandingserviceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistorysubagencyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/HistorytwosyscompanyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InformationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InsuranceproductsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InternetinformationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InternetinsuranceproductsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InternetnetworksecurityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/InternetterraceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/LandingserviceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/SubagencyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/SyscompanyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/SysuserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/TempusercolumntableServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/service/impl/TwosyscompanyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ApplayrevokeinfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ApplayrevokeinfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AuditorrevokeinfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AuditorrevokeinfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CheckhistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CheckhistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ColumncompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ColumncompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CoosupcusserverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CoosupcusserverMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmaillogsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmaillogsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistorycoosupcusserverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistorycoosupcusserverMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinsuranceproductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinsuranceproductsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetinformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetinformationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetinsuranceproducMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetinsuranceproducMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetnetworksecurityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetnetworksecurityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetterraceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistoryinternetterraceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistorylandingserviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistorylandingserviceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistorysubagencyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistorysubagencyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HistorytwosyscompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HistorytwosyscompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InformationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InsuranceproductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InsuranceproductsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InternetinformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InternetinformationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InternetinsuranceproductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InternetinsuranceproductsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InternetnetworksecurityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InternetnetworksecurityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InternetterraceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InternetterraceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LandingserviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LandingserviceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SubagencyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SubagencyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SyscompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SyscompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TempusercolumntableMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TempusercolumntableMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TwosyscompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TwosyscompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenchen/study/StudyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/announce/dataentry/AnnounceDataEntryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SecondCompanyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SecondCompanyRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendAgencyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendAgencyRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendCompanyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendCompanyRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendProductRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendProductRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendSetHistoryRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendSetHistoryRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendsubAgencyRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/SendsubAgencyRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/CompanyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/CompanyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/HistoryCompanyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/HistoryCompanyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SubAgencyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SubAgencyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SupServeryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/secondrequest/SupServeryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/thirdrequest/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/domian/thirdrequest/ProductInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/announce/AnnounceDataEntryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/announce/AnnounceDataEntryApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/announce/dataentry/controller/ApplayrevokeinfoController.class" beforeDir="false" />
@@ -376,6 +197,7 @@
       <workItem from="1628400688715" duration="21843000" />
       <workItem from="1628491771678" duration="4644000" />
       <workItem from="1628501386288" duration="18138000" />
+      <workItem from="1628563740580" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="自动生成entity等代码">
       <created>1628314463092</created>
@@ -412,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628500545490</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="代码提交">
+      <created>1628563988543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628563988543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,10 +261,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1628423873584" />
-    <state x="573" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628514670172">
+    <state x="573" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628564167013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="573" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1628514670172" />
+    <state x="573" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1628564167013" />
     <state x="536" y="271" width="463" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628318429093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -444,10 +273,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1628304676690" />
-    <state x="325" y="6" key="CommitChangelistDialog2" timestamp="1628500543292">
+    <state x="0" y="6" key="CommitChangelistDialog2" timestamp="1628563979366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="325" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628500543292" />
+    <state x="0" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628563979366" />
     <state width="522" height="466" key="DebuggerActiveHint" timestamp="1628520829138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -512,10 +341,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628501769163" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1628500585068">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1628563993919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628500585068" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628563993919" />
     <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1628304518018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -528,10 +357,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1628429955900" />
-    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1628520112001">
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1628576217979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1628520112001" />
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1628576217979" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1628521217331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -542,12 +371,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java</url>
-          <line>173</line>
+          <line>171</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java</url>
-          <line>144</line>
+          <line>142</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -557,7 +386,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/announce/dataentry/operation/controller/AgencyDataEntryController.java</url>
-          <line>255</line>
+          <line>253</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
